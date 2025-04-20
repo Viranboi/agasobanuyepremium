@@ -5,5 +5,5 @@ export const revalidate = 3600;
 
 export default function Page({ params }: { params: { slug: string } }) {
   const id = params.slug.split('-').pop();
-  return <EmbedPlayer url={`https://www.youtube.com/embed/lE4jPjDH-aM?si=XK8RUgEDe88NFJUL${id}`} />;
+  return <EmbedPlayer url={`https://vidsrc.cc/v2//embed/movie/${id}`} />;
 }
