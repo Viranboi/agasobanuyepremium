@@ -1,0 +1,17 @@
+# Ignore build and dependencies
+.next/
+node_modules/
+.env.local
+.env
+*.zip
+*.log
+.DS_Store
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+
+# Ignore Vercel & other deploy stuff
+.vercel/
+.vscode/
