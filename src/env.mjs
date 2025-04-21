@@ -39,9 +39,9 @@ export const env = createEnv({
     NEXT_PUBLIC_SITE_NAME: process.env.NEXT_PUBLIC_SITE_NAME,
     NEXT_PUBLIC_TWITTER: process.env.NEXT_PUBLIC_TWITTER ?? 'https://x.com',
     NEXT_PUBLIC_FACEBOOK:
-      process.env.NEXT_PUBLIC_FACEBOOK ?? 'https://facebook.com',
+      process.env.NEXT_PUBLIC_FACEBOOK ?? 'https://www.instagram.com/agasobanuye.pro/',
     NEXT_PUBLIC_INSTAGRAM:
-      process.env.NEXT_PUBLIC_INSTAGRAM ?? 'https://instagram.com',
+      process.env.NEXT_PUBLIC_INSTAGRAM ?? 'https://www.instagram.com/threy_____villa/',
     NEXT_PUBLIC_YOUTUBE:
       process.env.NEXT_PUBLIC_YOUTUBE ?? 'https://youtube.com',
   },
