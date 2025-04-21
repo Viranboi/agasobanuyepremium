@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Hero from '@/components/hero';
 import ShowsContainer from '@/components/shows-container';
 import { MediaType } from '@/types';
@@ -80,10 +81,30 @@ export default async function Home() {
 
   return (
     <>
+      <Head>
+        <title>Agasobanuye Pro - Rwandan Movies, Hollywood, Drama zasobanuwe</title>
+        <meta
+          name="description"
+          content="Reba film nyarwanda, Hollywood, Korean, na drama zasobanuwe mu Kinyarwanda kuri agasobanuye.pro. Urubuga rukunzwe mu Rwanda."
+        />
+        <meta
+          name="keywords"
+          content="agasobanuye, film nyarwanda, movies zasobanuwe, Rwandan movies, kinyarwanda movies"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Agasobanuye Pro - Film Zasobanuwe mu Kinyarwanda" />
+        <meta
+          property="og:description"
+          content="Urubuga rwa mbere mu Rwanda rwerekana film zasobanuwe mu Kinyarwanda - Agasobanuye Pro"
+        />
+        <meta property="og:url" content="https://agasobanuye.pro" />
+        <meta property="og:image" content="https://agasobanuye.pro/thumbnail.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+
       <h1 className="hidden">{h1}</h1>
       <Hero shows={allShows[0].shows} />
       <ShowsContainer shows={allShows} />
     </>
-  
   );
 }
