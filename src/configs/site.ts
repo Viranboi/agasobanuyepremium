@@ -36,7 +36,7 @@ export const siteConfig = {
   links: {
     twitter: `${env.NEXT_PUBLIC_TWITTER}`,
     
-    githubAccount: '',
+    
   },
   socialLinks: [
     {
