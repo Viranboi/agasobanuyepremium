@@ -100,6 +100,7 @@ export default async function Home() {
         <meta property="og:url" content="https://agasobanuye.pro" />
         <meta property="og:image" content="https://agasobanuye.pro/thumbnail.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script defer data-domain="agasobanuye.pro" src="https://plausible.io/js/script.js"></script>
       </Head>
 
       <h1 className="hidden">{h1}</h1>
