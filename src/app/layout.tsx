@@ -114,6 +114,7 @@ export default function RootLayout({
             </>
           )}
         </ThemeProvider>
+        <Analytics/>
       </body>
     </html>
   );
