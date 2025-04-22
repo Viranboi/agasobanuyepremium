@@ -60,12 +60,7 @@ const SiteFooter = () => {
             
           </a>
           
-          <a
-            href={siteConfig.links.github}
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
+          
             
           </a>
           
