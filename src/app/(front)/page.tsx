@@ -37,8 +37,7 @@ export default function Index() {
           <Link className={`${buttonVariants({ size: "lg" })}`} href="/home">
             Watch Now <ArrowRight className="ml-1 inline-block" />
           </Link>
-          {/* <Link className={`${buttonVariants({ size: "lg", variant: "outline" })}`} href={siteConfig.links.github} target="_blank" */}
-          {/*   rel="noreferrer">GitHub</Link> */}
+          
         </div>
       </section>
       <section
