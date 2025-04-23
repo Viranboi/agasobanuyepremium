@@ -33,8 +33,7 @@ export const siteConfig = {
   ],
   url: env.NEXT_PUBLIC_APP_URL,
   ogImage: `${env.NEXT_PUBLIC_APP_URL}/images/hero.jpg`,
-  links: {
-    twitter: `${env.NEXT_PUBLIC_TWITTER}`,
+  
     
     
   },
