@@ -51,18 +51,9 @@ const SiteFooter = () => {
         <Icons.play className="hidden h-6 w-6 md:block" />
         <p className="text-center text-xs leading-loose sm:text-sm md:text-left">
             agasobanuye pro ibaho firime zisobanuye nizidasobanuye ndetse ushaka kuhakorera amafaranga watwandikira
-          <a
-            href={siteConfig.links.twitter}
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
+         
             
-          </a>
-          
-          
-            
-          </a>
+        
           
         </p>
       </div>
