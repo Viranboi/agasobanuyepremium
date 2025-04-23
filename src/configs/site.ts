@@ -48,11 +48,7 @@ export const siteConfig = {
       href: `${env.NEXT_PUBLIC_INSTAGRAM}`,
       icon: Icons.instagram,
     },
-    {
-      title: 'Twitter',
-      href: `${env.NEXT_PUBLIC_TWITTER}`,
-      icon: Icons.twitter,
-    },
+    
     {
       title: 'Youtube',
       href: `${env.NEXT_PUBLIC_YOUTUBE}`,
