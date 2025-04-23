@@ -48,12 +48,7 @@ export const siteConfig = {
       href: `${env.NEXT_PUBLIC_INSTAGRAM}`,
       icon: Icons.instagram,
     },
-    
-    {
-      title: 'Youtube',
-      href: `${env.NEXT_PUBLIC_YOUTUBE}`,
-      icon: Icons.youtube,
-    },
+   
   ],
   footerItems: [
     //{ title: 'Audio Description', href: '/' },
