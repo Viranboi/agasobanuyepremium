@@ -1,8 +1,3 @@
-// import type { FooterItem, MainNavItem } from "@/types"
-//
-// import { productCategories } from "@/config/products"
-// import { slugify } from "@/lib/utils"
-
 import { Icons } from '@/components/icons';
 import { env } from '@/env.mjs';
 
@@ -33,10 +28,7 @@ export const siteConfig = {
   ],
   url: env.NEXT_PUBLIC_APP_URL,
   ogImage: `${env.NEXT_PUBLIC_APP_URL}/images/hero.jpg`,
-  
-    
-    
-  },
+
   socialLinks: [
     {
       title: 'Facebook',
@@ -48,72 +40,30 @@ export const siteConfig = {
       href: `${env.NEXT_PUBLIC_INSTAGRAM}`,
       icon: Icons.instagram,
     },
-   
+    {
+      title: 'Twitter', // Added Twitter link
+      href: `${env.NEXT_PUBLIC_TWITTER}`, // The Twitter link from environment variable
+      icon: Icons.twitter, // Add a twitter icon if available
+    },
   ],
+
   footerItems: [
-    //{ title: 'Audio Description', href: '/' },
-    //{ title: 'Help Center', href: '/' },
-    //{ title: 'Gift Cards', href: '/' },
-    //{ title: 'Media Center', href: '/' },
-    //{ title: 'Investor Relations', href: '/' },
-    //{ title: 'Jobs', href: '/' },
-    //{ title: 'Terms of Use', href: '/terms-of-use' },
-    //{ title: 'Privacy', href: '/' },
-    //{ title: 'Legal Notices', href: '/' },
-    //{ title: 'Cookie Preferences', href: '/' },
-    //{ title: 'Corporate Information', href: '/' },
-    //{ title: 'Contact Us', href: '/' },
+    // Footer items can be added here
   ],
+
   mainNav: [
     {
       title: 'Home',
       href: '/home',
-      // icon: Icons.play,
     },
     {
       title: 'Trending',
       href: '/tv-shows',
-      // icon: Icons.tvShow,
     },
     {
-      title: 'Indian ',
-      href: '/indian',
-      // icon: Icons.movie,
+      title: 'Adult',
+      href: '/Adult',
     },
-    {
-      title: 'Cartoons',
-      href: '/Cartoons',
-      // icon: Icons.trendingUp,
-    },
-
-    {
-      title: 'Horror',
-      href: '/Horror',
-      // icon: Icons.trendingUp,
-    },
-
-    {
-      title: 'Sciffi',
-      href: '/Sciffi',
-      // icon: Icons.trendingUp,
-    },
-
-    {
-      title: 'Hit songs',
-      href: '/Songs',
-      // icon: Icons.trendingUp,
-    },
-    // 
-    // 
-    // {
-    //   title: "My List",
-    //   href: "/my-list",
-    //   // icon: Icons.list,
-    // },
-    {
-      title: 'Notifications',
-      // onClick: () => alert("🛹 Do a kickflip"),
-      // icon: Icons.bell,
-    },
+    // Other main navigation items
   ],
 };
